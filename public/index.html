@@ -5,11 +5,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Card Slider</title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <!-- My CSS -->
   <link href="./output.css" rel="stylesheet">
+  <!-- Swiper JS -->
+  <script src="./js/swiper-bundle.min.js" defer></script>
+  <!-- My JS -->
+  <script src="./js/slide.js" defer></script>
 </head>
 
-<body>
-
+<body class="bg-gray-200 font-redhat">
+  <h1 class="text-5xl text-gray-700 my-10 text-center">Simple Card Slider made with Tailwind CSS and SwiperJS</h1>
+  <div class="flex items-center justify-center">
+    <div class="swiper w-full bg-gray-600 ">
+      <div class="slide-container mx-20">
+        <div class="swiper-wrapper flex gap-x-6">
+          <!--START CARDS -->
+          <div class="swiper-slide h-96 relative my-14">
+            <div class="w-64 h-96 left-0 top-0 absolute rounded-2xl justify-center items-center gap-2 inline-flex">
+              <img class="grow shrink basis-0 self-stretch rounded-2xl" src="https://via.placeholder.com/250x370" />
+              <h3 class="absolute bottom-4 text-white font-bold text-xl">Card Title</h3>
+            </div>
+          </div>
+          <div class="swiper-slide h-96 relative my-14">
+            <div class="w-64 h-96 left-0 top-0 absolute rounded-2xl justify-center items-center gap-2 inline-flex">
+              <img class="grow shrink basis-0 self-stretch rounded-2xl" src="https://via.placeholder.com/250x370" />
+              <h3 class="absolute bottom-4 text-white font-bold text-xl">Card Title</h3>
+            </div>
+          </div>
+          <div class="swiper-slide h-96 relative my-14">
+            <div class="w-64 h-96 left-0 top-0 absolute rounded-2xl justify-center items-center gap-2 inline-flex">
+              <img class="grow shrink basis-0 self-stretch rounded-2xl" src="https://via.placeholder.com/250x370" />
+              <h3 class="absolute bottom-4 text-white font-bold text-xl">Card Title</h3>
+            </div>
+          </div>
+          <div class="swiper-slide h-96 relative my-14">
+            <div class="w-64 h-96 left-0 top-0 absolute rounded-2xl justify-center items-center gap-2 inline-flex">
+              <img class="grow shrink basis-0 self-stretch rounded-2xl" src="https://via.placeholder.com/250x370" />
+              <h3 class="absolute bottom-4 text-white font-bold text-xl">Card Title</h3>
+            </div>
+          </div>
+          <div class="swiper-slide h-96 relative my-14">
+            <div class="w-64 h-96 left-0 top-0 absolute rounded-2xl justify-center items-center gap-2 inline-flex">
+              <img class="grow shrink basis-0 self-stretch rounded-2xl" src="https://via.placeholder.com/250x370" />
+              <h3 class="absolute bottom-4 text-white font-bold text-xl">Card Title</h3>
+            </div>
+          </div>
+          <!-- END CARDS -->
+        </div>
+      </div>
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
 </body>
 
 </html>

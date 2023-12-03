@@ -1,4 +1,4 @@
-# simple card slider with Tailwind
+# simple card slider with Tailwind CSS and SwiperJS
 
 ## Get Started
 
